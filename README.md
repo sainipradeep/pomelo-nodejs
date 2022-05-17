@@ -94,7 +94,7 @@ curl --location --request POST 'http://localhost:8080/api/nodes/parser' \
 This endpoint returns Github open repositories with desired query `nodejs`. And returns the html page
 
 ```http
-GET /?page=1
+GET http://localhost:8080/?page=1
 ```
 
 ```javascript
